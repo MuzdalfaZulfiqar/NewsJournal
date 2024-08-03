@@ -15,6 +15,9 @@
 ## Preview 
 https://news-app-by-api.vercel.app/
 
+![image](https://github.com/user-attachments/assets/6b21ff7f-25d4-42a9-a558-b7189b7e77f9)
+
+
 ## Contribution
 
 Contributions are welcomed! If you'd like to contribute, please fork the repository and create a pull request. For major changes, please open an issue first to discuss what you would like to change.
