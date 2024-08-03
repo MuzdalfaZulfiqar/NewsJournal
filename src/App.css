@@ -45,6 +45,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 ul {
@@ -57,7 +60,7 @@ ul li{
 }
 
 .navBar{
-  background-color:rgba(135, 135, 203, 0.864);
+  background-color:rgb(215 200 235 / 86%);
   display: flex;
   gap: 20px;
   align-items: center;
@@ -124,8 +127,8 @@ font-weight: bolder;
   font-size: 17px;
 }
 .btn{
-  background-color: rgba(135, 135, 203, 0.864);
-  color: white;
+  background-color: rgb(215 200 235 / 86%);
+  color: black;
   height: 30px;
   /* margin-top: 14px; */
   border-radius: 5px;
@@ -141,18 +144,18 @@ a {
 }
 
 a:hover {
-  background-color: rgba(135, 135, 203, 0.864);
+  background-color:rgb(215 200 235 / 86%);
   color: black;
 }
 
 .previous {
-  background-color: rgba(206, 206, 234, 0.864);
-  color: black;
+  background-color: black;
+  color: rgb(215 200 235 / 86%);
 }
 
 .next {
-  background-color:rgba(183, 183, 213, 0.864);
-  color: white;
+  background-color:black;
+  color: rgb(215 200 235 / 86%);
 }
 
 
