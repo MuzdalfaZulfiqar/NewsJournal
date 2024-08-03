@@ -143,6 +143,10 @@ a {
   padding: 18px 26px;
 }
 
+a:visited{
+  color: black;
+}
+
 a:hover {
   background-color:rgb(215 200 235 / 86%);
   color: black;

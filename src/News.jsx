@@ -69,11 +69,11 @@ export default class News extends Component {
 
 
   const handleNextClick =    async  () =>{
-    if(this.state.page + 1 > Math.ceil(this.state.totalresults/4)){
+    if(this.state.page + 1 > Math.ceil(this.state.totalresults/10)){
       alert("Woho , This is blind end you cannot go any further")
     } 
     else{
-      let url = `https://newsdata.io/api/1/latest?category=${this.props.category}&apikey=pub_4987862ba7a3d4b445f46c1804724320d54fd&domainurl=bbc.com&page=${this.state.page-1}&pageSize=${4}`
+      let url = `https://newsdata.io/api/1/latest?category=${this.props.category}&apikey=pub_4987862ba7a3d4b445f46c1804724320d54fd&domainurl=bbc.com&page=${this.state.page+1}&pageSize=${4}`
       // before fecthing the data show the loading spinner
       this.setState({
         loading:true
